@@ -22,6 +22,23 @@ Untuk memberikan informasi GitHub repo kepada lokal git repo kita, langkah perta
    $ git remote -v
    ```
 
+## Clone Repo di Komputer Lain
+
+Setelah kalian mengintegrasikan lokal repo kalian dengan GitHub repo, teman kalian juga dapat melakukan clone terhadap GitHub repo tersebut menggunakan command
+
+```
+$ git clone <url github repo kalian>
+```
+
+Teman kalian akan mampu melakukan clone GitHub repo kalian, tetapi belum bisa melakukan penambahan perubaan, untuk itu berikan teman kalian akses menulis pada repo dengan cara mengundang akun GitHub mereka ke dalam GitHub repo kalian. Langkah-langkah nya adalah:
+
+1. Buka repository GitHub proyek kalian, lalu pindah ke Tab `Settings`, kemudian pilih menu `Collaborators`
+   ![Github Repo Settings](../assets/github_repo_settings.png)
+2. Kemudian pilih `Add People`, masukkan username atau alamat email GitHub teman kalian, lalu invite
+   ![Github Invite](../assets/github_invite.png)
+3. Minta teman kalian untuk membuka email dan menerima invitation dari kalian
+   ![Github Invitation](../assets/github_invitation.png)
+
 ## Menambahkan Perubahan pada Branch ke GitHub
 
 Setelah kalian selesai menambahkan perubahan pada branch kalian. Kalian dapat melakukan sinkronisasi perubahan tersebut ke GitHub dengan menggunakan command
@@ -53,7 +70,7 @@ Untuk melakukan MR, langkah-langkahnya adalah:
    ![Github MR Confirm](../assets/github_mr_confirm.png)
 
 Setelah kalian sukses melakukan Merge, maka akan ada informasi sebagai berikut pada laman MR kalian tadi
-![Alt text](../assets/github_success_mr.png)
+![Github Success Merged](../assets/github_success_mr.png)
 
 Kalian akan diberikan opsi untuk menghapus cabang kalian tadi setelah Merge selesai, untuk saat ini biarkan saja cabang tersebut untuk keperluan riwayat cabang.
 

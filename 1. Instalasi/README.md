@@ -97,6 +97,12 @@ $ git config --global user.email "youremail@example.com"
 
 ubah "Your Name" dan "youremail@example.com" dengan Nama dan Email kalian masing-masing. Penting untuk diingat, pastikan email yang kalian tulis adalah email aktif yang nantinya akan digunakan untuk pendaftaran GitHub.
 
+Kemudian untuk pengguna MacOS dan Linux, tambahkan step berikut untuk mengubah default branch menjadi `main` untuk memudahkan integrasi dengan GitHub nantinya
+
+```
+$ git config --global init.defaultBranch main
+```
+
 > Disarankan **tidak menggunakan email kampus** karena akun GitHub akan kalian pakai seterusnya, jika akses email kampus dinonaktifkan setelah kalian lulus maka cukup menjadi masalah
 
 # Mendaftar Github
