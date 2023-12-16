@@ -10,6 +10,7 @@ See you there!
 2. [Membuat Repository](./2.%20Membuat%20Repository/README.md)
 3. [Membuat Perubahan](./3.%20Membuat%20Perubahan/README.md)
 4. [Membuat Perubahan Berkelompok](./4.%20Membuat%20Perubahan%20Berkelompok/README.md)
+5. [Sinkronisasi Perubahan](./5.%20Sinkronisasi%20Perubahan/README.md)
 
 # References:
 
