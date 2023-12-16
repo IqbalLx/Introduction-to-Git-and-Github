@@ -11,6 +11,7 @@ See you there!
 3. [Membuat Perubahan](./3.%20Membuat%20Perubahan/README.md)
 4. [Membuat Perubahan Berkelompok](./4.%20Membuat%20Perubahan%20Berkelompok/README.md)
 5. [Sinkronisasi Perubahan](./5.%20Sinkronisasi%20Perubahan/README.md)
+6. [Menangani Konflik Kode](./6.%20Menangani%20Konflik%20Kode/README.md)
 
 # References:
 
