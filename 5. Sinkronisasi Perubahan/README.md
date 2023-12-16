@@ -40,4 +40,13 @@ Proses ini disebut `Merge` sama seperti sebelumnya, tetapi saat ini kita melakuk
 
 Untuk melakukan MR, langkah-langkahnya adalah:
 
-1.
+1. Sesaat setelah kalian melakukan push, maka akan tampil tombol hijau diatas repo kalian dengan judul `Compare & pull request`, klik tombol tersebut  
+    ![Github Compare and MR](../assets/github_compare_and_mr.png)
+   atau bisa juga dengan klik URL yang tampil pada terminal kalian seperti ini  
+   ![Github MR from CMD](../assets/github_pr_from_cmd.png)
+2. Kemudian kalian akan dibawa ke laman Merge Request, isikan judul MR dan deskripsi singkat sesuai perubahan yang kalian tambahkan. Setelah selesai klik `Create pull request`
+   ![Github MR Page](../assets/github_mr_page.png)
+3. Berikutnya teman kalian dapat melihat perubahan apa yang kalian coba buat dengan membuka tab `Changes`
+   ![Github MR Changes](../assets/github_mr_changes.png)
+4. Jika ada revisi yang diperlukan, teman kalian dapat menambahkan komen pada laman MR tersebut, kemudian kalian sebagai pemilik MR dapat menambahkan revisi yang diinginkan pada branch lokal kalian, kemudian mengulangi command `git push`
+5. Setelah semua orang dalam proyek sepakat, kalian bisa menambahkan perubahan ini ke cabang utama dengan menekan tombol `Merge pull request`
