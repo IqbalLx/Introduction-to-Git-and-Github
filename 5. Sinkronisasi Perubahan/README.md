@@ -6,12 +6,28 @@
 
 Diagram diatas adalah versi update dari diagram pada modul sebelumnya, dimana sekarang GitHub muncul untuk pertama kalinya.
 
+## Mengintegrasikan Lokal Repo dengan GitHub Repo
+
+Untuk memberikan informasi GitHub repo kepada lokal git repo kita, langkah pertama adalah mendapatkan url github repo kita dengan cara
+
+1. Buka Github kalian pada browser, lalu buka repository yang telah kalian pada modul 1
+2. Pada sebelah kiri deskripsi repo, kalian akan menemukan tombol hijau berjudul `Code`, klik, lalu geser pada tab SSH
+   ![GitHub Get URL](../assets/github_get_url.png)
+3. Copy url tersebut lalu, gunakan command berikut
+   ```
+   $ git remote add origin <url github repo kalian>
+   ```
+4. Validasi penambahan Github repo dengan command
+   ```
+   $ git remote -v
+   ```
+
 ## Menambahkan Perubahan pada Branch ke GitHub
 
 Setelah kalian selesai menambahkan perubahan pada branch kalian. Kalian dapat melakukan sinkronisasi perubahan tersebut ke GitHub dengan menggunakan command
 
 ```
-$ git push
+$ git push -u origin <nama branch>
 ```
 
 Command diatas akan menambahkan branch beserta seluruh perubahan yang kalian lakukan ke GitHub. Prosesnya mirip seperti kalian mengupload file kalian ke E-Learning atau Google Drive
