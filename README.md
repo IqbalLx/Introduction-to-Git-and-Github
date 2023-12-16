@@ -9,6 +9,7 @@ See you there!
 1. [**Pre-requirement:** Instalasi Git](./1.%20Instalasi/README.md)
 2. [Membuat Repository](./2.%20Membuat%20Repository/README.md)
 3. [Membuat Perubahan](./3.%20Membuat%20Perubahan/README.md)
+4. [Membuat Perubahan Berkelompok](./4.%20Membuat%20Perubahan%20Berkelompok/README.md)
 
 # References:
 
