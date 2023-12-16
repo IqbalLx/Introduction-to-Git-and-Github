@@ -1,3 +1,12 @@
+# Daftar Isi
+
+- [Instalasi Git](#instalasi-git)
+  - [Instalasi Git untuk Windows](#instalasi-git-untuk-windows)
+  - [Instalasi Git untuk MacOS dan Linux](#instalasi-git-untuk-macos-dan-linux)
+  - [Setup Git](#setup-git)
+- [Mendaftar Github](#mendaftar-github)
+  - [Integrasi Git dengan GitHub](#integrasi-git-dengan-github)
+
 # Instalasi Git
 
 ## Instalasi Git untuk Windows
