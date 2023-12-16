@@ -155,10 +155,10 @@ Untuk keperluan kita saat ini, akan saya simplifikasi dengan langkah-langkah ber
 
   > **Perhatikan!** Yang kalian copy adalah file dengan nama yang sama dengan yang kalian daftarkan kepada SSH Agent pada langkah sebelumnya yaitu `id_ed25519`, perbedaannya saat ini yang harus kalian copy isi filenya adalah dengan extensi `.pub`
 
-- Setelah selesai kalian copy, kembali ke Browser masing - masing kemudian buka GitHub kalian, di pojok kanan atas akan ada foto profil GitHub kalian, klik, kemudian pilih Settings
+- Setelah selesai kalian copy, kembali ke Browser masing - masing kemudian buka GitHub kalian, di pojok kanan atas akan ada foto profil GitHub kalian, klik, kemudian pilih Settings  
   ![Github Settings](../assets/github_settings.png)
 
-- Kemudian pada tab Access, pilih `SSH and GPG keys`
+- Kemudian pada tab Access, pilih `SSH and GPG keys`  
   ![Github SSH GPG](../assets/github_ssh_gpg.png)
 
 - Kemudian klik `New SSH key`
