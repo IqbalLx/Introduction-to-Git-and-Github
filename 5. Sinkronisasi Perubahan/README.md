@@ -49,4 +49,23 @@ Untuk melakukan MR, langkah-langkahnya adalah:
 3. Berikutnya teman kalian dapat melihat perubahan apa yang kalian coba buat dengan membuka tab `Changes`
    ![Github MR Changes](../assets/github_mr_changes.png)
 4. Jika ada revisi yang diperlukan, teman kalian dapat menambahkan komen pada laman MR tersebut, kemudian kalian sebagai pemilik MR dapat menambahkan revisi yang diinginkan pada branch lokal kalian, kemudian mengulangi command `git push`
-5. Setelah semua orang dalam proyek sepakat, kalian bisa menambahkan perubahan ini ke cabang utama dengan menekan tombol `Merge pull request`
+5. Setelah semua orang dalam proyek sepakat, kalian bisa menambahkan perubahan ini ke cabang utama dengan menekan tombol `Merge pull request`, kemudian pastikan pemilik MR sudah sesuai, lalu tekan `Confirm merge`
+   ![Github MR Confirm](../assets/github_mr_confirm.png)
+
+Setelah kalian sukses melakukan Merge, maka akan ada informasi sebagai berikut pada laman MR kalian tadi
+![Alt text](../assets/github_success_mr.png)
+
+Kalian akan diberikan opsi untuk menghapus cabang kalian tadi setelah Merge selesai, untuk saat ini biarkan saja cabang tersebut untuk keperluan riwayat cabang.
+
+## Sinkronisasi Perubahan dari MR
+
+Langkah selanjutnya setelah MR berhasil, kalian dan teman kalian dapat kembali ke cabang utama, yaitu `main` kemudian menarik semua perubahan dari MR tadi dengan menggunakan `git pull`
+
+```
+$ git checkout main
+$ git pull
+```
+
+![Git Pull](../assets/git_pull.png)
+
+Maka kalian dan teman kalian akan mandapatkan perubahan terkini
